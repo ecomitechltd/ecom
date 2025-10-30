@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "VITE_ENABLE_ROUTE_MESSAGING=true vite",
     "build": "vite build",
+    "start": "next start -p 3000",
     "build:dev": "VITE_ENABLE_ROUTE_MESSAGING=true vite build --mode development --sourcemap",
     "build:map": "VITE_ENABLE_ROUTE_MESSAGING=true vite build --sourcemap",
     "lint": "eslint .",
